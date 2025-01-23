@@ -1,0 +1,42 @@
+/*
+  Localizable.strings
+  SendMoneyApplication
+
+  Created by Taimoor Suleman on 22/01/2025.
+  
+*/
+
+"done_button_title" = "Done";
+"field_required_message" = "Field is required %@";
+"invalid_input_message" = "Invalid input";
+"ok_button_title" = "OK";
+"success_title" = "Success";
+"money_sent_message" = "Your money has been sent successfully.";
+
+"dashboard_title" = "Dashboard";
+"send_money_button" = "Send Money";
+"transaction_history_button" = "Transaction History";
+
+"invalid_username" = "Invalid username.";
+"invalid_password" = "Invalid password.";
+"invalid_email_address" = "Invalid email address.";
+"user_not_found" = "User not found.";
+
+"signin_title_lbl" = "SEND MONEY APP";
+"signin_sub_title_lbl" = "Welcome to Send Money App!";
+"signin_email_placeholder" = "UserName*";
+"signin_password_placeholder" = "Password*";
+"signin_signin_btn" = "SIGN IN";
+"signin_terms_text" = "By proceeding, you also agree to the Terms of Service and Privacy Policy";
+
+"Transaction Details" = "Transaction Details";
+"Saved Requests" = "Saved Requests";
+"Send" = "Send";
+
+"language_change_confirmation_title" = "Change Language";
+"language_change_confirmation_message" = "Are you sure you want to change the language?";
+"yes_button_title" = "Yes";
+"cancel_button_title" = "Cancel";
+"select_service" = "Select Service";
+"select_provider" = "Select Provider";
+"Validation failed for field:" = "Validation failed for field:";

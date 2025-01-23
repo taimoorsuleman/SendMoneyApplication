@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C8933E2D41449800068C41 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 64C8933D2D41449800068C41 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		645846182D3A664A00787AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645845F62D3A664700787AA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645845FD2D3A664700787AA8;
+			remoteInfo = SendMoneyApplication;
+		};
+		645846222D3A664A00787AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 645845F62D3A664700787AA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645845FD2D3A664700787AA8;
+			remoteInfo = SendMoneyApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		645845FE2D3A664700787AA8 /* SendMoneyApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMoneyApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		645846172D3A664A00787AA8 /* SendMoneyApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMoneyApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		645846212D3A664A00787AA8 /* SendMoneyApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMoneyApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C8933D2D41449800068C41 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		645846292D3A664A00787AA8 /* Exceptions for "SendMoneyApplication" folder in "SendMoneyApplication" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+			);
+			target = 645845FD2D3A664700787AA8 /* SendMoneyApplication */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		645846002D3A664700787AA8 /* SendMoneyApplication */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				645846292D3A664A00787AA8 /* Exceptions for "SendMoneyApplication" folder in "SendMoneyApplication" target */,
+			);
+			path = SendMoneyApplication;
+			sourceTree = "<group>";
+		};
+		6458461A2D3A664A00787AA8 /* SendMoneyApplicationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SendMoneyApplicationTests;
+			sourceTree = "<group>";
+		};
+		645846242D3A664A00787AA8 /* SendMoneyApplicationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SendMoneyApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645845FB2D3A664700787AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645846142D3A664A00787AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458461E2D3A664A00787AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		645845F52D3A664700787AA8 = {
+			isa = PBXGroup;
+			children = (
+				64C8933D2D41449800068C41 /* README.md */,
+				645846002D3A664700787AA8 /* SendMoneyApplication */,
+				6458461A2D3A664A00787AA8 /* SendMoneyApplicationTests */,
+				645846242D3A664A00787AA8 /* SendMoneyApplicationUITests */,
+				645845FF2D3A664700787AA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		645845FF2D3A664700787AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645845FE2D3A664700787AA8 /* SendMoneyApplication.app */,
+				645846172D3A664A00787AA8 /* SendMoneyApplicationTests.xctest */,
+				645846212D3A664A00787AA8 /* SendMoneyApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645845FD2D3A664700787AA8 /* SendMoneyApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458462A2D3A664A00787AA8 /* Build configuration list for PBXNativeTarget "SendMoneyApplication" */;
+			buildPhases = (
+				645845FA2D3A664700787AA8 /* Sources */,
+				645845FB2D3A664700787AA8 /* Frameworks */,
+				645845FC2D3A664700787AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				645846002D3A664700787AA8 /* SendMoneyApplication */,
+			);
+			name = SendMoneyApplication;
+			packageProductDependencies = (
+			);
+			productName = SendMoneyApplication;
+			productReference = 645845FE2D3A664700787AA8 /* SendMoneyApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		645846162D3A664A00787AA8 /* SendMoneyApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458462F2D3A664A00787AA8 /* Build configuration list for PBXNativeTarget "SendMoneyApplicationTests" */;
+			buildPhases = (
+				645846132D3A664A00787AA8 /* Sources */,
+				645846142D3A664A00787AA8 /* Frameworks */,
+				645846152D3A664A00787AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645846192D3A664A00787AA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6458461A2D3A664A00787AA8 /* SendMoneyApplicationTests */,
+			);
+			name = SendMoneyApplicationTests;
+			packageProductDependencies = (
+			);
+			productName = SendMoneyApplicationTests;
+			productReference = 645846172D3A664A00787AA8 /* SendMoneyApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		645846202D3A664A00787AA8 /* SendMoneyApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645846322D3A664A00787AA8 /* Build configuration list for PBXNativeTarget "SendMoneyApplicationUITests" */;
+			buildPhases = (
+				6458461D2D3A664A00787AA8 /* Sources */,
+				6458461E2D3A664A00787AA8 /* Frameworks */,
+				6458461F2D3A664A00787AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				645846232D3A664A00787AA8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				645846242D3A664A00787AA8 /* SendMoneyApplicationUITests */,
+			);
+			name = SendMoneyApplicationUITests;
+			packageProductDependencies = (
+			);
+			productName = SendMoneyApplicationUITests;
+			productReference = 645846212D3A664A00787AA8 /* SendMoneyApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645845F62D3A664700787AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					645845FD2D3A664700787AA8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					645846162D3A664A00787AA8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 645845FD2D3A664700787AA8;
+					};
+					645846202D3A664A00787AA8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 645845FD2D3A664700787AA8;
+					};
+				};
+			};
+			buildConfigurationList = 645845F92D3A664700787AA8 /* Build configuration list for PBXProject "SendMoneyApplication" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 645845F52D3A664700787AA8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 645845FF2D3A664700787AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645845FD2D3A664700787AA8 /* SendMoneyApplication */,
+				645846162D3A664A00787AA8 /* SendMoneyApplicationTests */,
+				645846202D3A664A00787AA8 /* SendMoneyApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		645845FC2D3A664700787AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C8933E2D41449800068C41 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645846152D3A664A00787AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458461F2D3A664A00787AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645845FA2D3A664700787AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645846132D3A664A00787AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458461D2D3A664A00787AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		645846192D3A664A00787AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645845FD2D3A664700787AA8 /* SendMoneyApplication */;
+			targetProxy = 645846182D3A664A00787AA8 /* PBXContainerItemProxy */;
+		};
+		645846232D3A664A00787AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 645845FD2D3A664700787AA8 /* SendMoneyApplication */;
+			targetProxy = 645846222D3A664A00787AA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6458462B2D3A664A00787AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99H473BAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendMoneyApplication/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taimoor.SendMoneyApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6458462C2D3A664A00787AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M99H473BAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SendMoneyApplication/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taimoor.SendMoneyApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6458462D2D3A664A00787AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6458462E2D3A664A00787AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		645846302D3A664A00787AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taimoor.SendMoneyApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMoneyApplication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendMoneyApplication";
+			};
+			name = Debug;
+		};
+		645846312D3A664A00787AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taimoor.SendMoneyApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMoneyApplication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SendMoneyApplication";
+			};
+			name = Release;
+		};
+		645846332D3A664A00787AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taimoor.SendMoneyApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendMoneyApplication;
+			};
+			name = Debug;
+		};
+		645846342D3A664A00787AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taimoor.SendMoneyApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SendMoneyApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645845F92D3A664700787AA8 /* Build configuration list for PBXProject "SendMoneyApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458462D2D3A664A00787AA8 /* Debug */,
+				6458462E2D3A664A00787AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458462A2D3A664A00787AA8 /* Build configuration list for PBXNativeTarget "SendMoneyApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458462B2D3A664A00787AA8 /* Debug */,
+				6458462C2D3A664A00787AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458462F2D3A664A00787AA8 /* Build configuration list for PBXNativeTarget "SendMoneyApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645846302D3A664A00787AA8 /* Debug */,
+				645846312D3A664A00787AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645846322D3A664A00787AA8 /* Build configuration list for PBXNativeTarget "SendMoneyApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645846332D3A664A00787AA8 /* Debug */,
+				645846342D3A664A00787AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645845F62D3A664700787AA8 /* Project object */;
+}
