@@ -1,6 +1,6 @@
 # SendMoneyApplication
 
-SendMoneyApplication is a simple iOS application designed for SIU assignments. It facilitates seamless money transfers between users, providing an intuitive interface and robust functionality. The application is built with a focus on clean architecture, maintainability, and scalability using the **Model-View-ViewModel (MVVM)** pattern.
+SendMoneyApplication is a simple iOS application designed for assignments. It facilitates seamless money transfers between users, providing an intuitive interface and robust functionality. The application is built with a focus on clean architecture, maintainability, and scalability using the **Model-View-ViewModel (MVVM)** pattern.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ SendMoneyApplication is a simple iOS application designed for SIU assignments. I
 
 
 ## Demo
-<video src="assets/app_recording.mp4" width="400" controls></video>
+[Watch the demo here](https://drive.google.com/file/d/1i4aQY04cn0nMDRFZFidqrGunullmrF9I/view?usp=sharing)
 
 _Watch the demo video to see the core features of SendMoneyApplication in action._
 
