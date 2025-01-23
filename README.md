@@ -5,7 +5,6 @@ SendMoneyApplication is a simple iOS application designed for SIU assignments. I
 ## Table of Contents
 
 - [Demo](#demo)
-- [Screenshots](#screenshots)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Design Choices](#design-choices)
@@ -18,37 +17,6 @@ SendMoneyApplication is a simple iOS application designed for SIU assignments. I
 
 _Watch the demo video to see the core features of SendMoneyApplication in action._
 
-## Screenshots
-
-Below are the screenshots of the application demonstrating key features in both English and Arabic versions.
-
-### English Version
-![English Screenshot](assets/screenshot_en_1.png)
-*Login screen in English version*
-![English Screenshot](assets/screenshot_en_2.png)
-*Home screen in English version*
-![English Screenshot](assets/screenshot_en_3.png)
-*SendMoney screen in English version*
-![English Screenshot](assets/screenshot_en_4.png)
-*SavedRequest screen in English version*
-![English Screenshot](assets/screenshot_en_5.png)
-*TransactionDetails screen in English version*
-![English Screenshot](assets/screenshot_en_6.png)
-*Language Change Popup in English version*
-
-### Arabic Version
-![Arabic Screenshot](assets/screenshot_ar_1.png)
-*Login screen in Arabic version*
-![Arabic Screenshot](assets/screenshot_ar_2.png)
-*Home screen in Arabic version*
-![Arabic Screenshot](assets/screenshot_ar_3.png)
-*SendMoney screen in Arabic version*
-![Arabic Screenshot](assets/screenshot_ar_4.png)
-*SavedRequest screen in Arabic version*
-![Arabic Screenshot](assets/screenshot_ar_5.png)
-*TransactionDetails screen in Arabic version*
-![Arabic Screenshot](assets/screenshot_ar_6.png)
-*Language Change Popup in Arabic version*
 
 
 
